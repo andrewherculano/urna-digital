@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urna {
+    background-color: #DBD5C9;
+    padding: 30px;
+    display: flex;
+    margin-top: 5%;
+}
+
+.tela{
+    width: 550px;
+    height: 320px;
+    background: linear-gradient(to right, #E8E8E8, #C1C1C1);
+    border: solid 3px #564D53 
+
+}
+
+.teclado{
+    background-color: #403A3A;
+    margin-left: 30px;
+}
+
+.teclado-linha{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.teclado-botao{
+    width: 80px;
+    height: 40px;
+    background-color: #000;
+    color: whitesmoke;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 #777;
+}
+
+.btn-branco{
+    background-color: #FFF;
+    color: #000;
+    font-size: 15px;
+}
+
+.btn-corrige{
+    background-color: #ED8100;
+    color: #000;
+    font-size: 15px;
+}
+
+.btn-confirma{
+    background-color: #7FC716 ;
+    color: #000;
+    font-size: 15px;
+    width: 95px;
+    height: 45px;
+}
